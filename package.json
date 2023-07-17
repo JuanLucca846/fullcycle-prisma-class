@@ -1,0 +1,27 @@
+{
+  "name": "aulafullcycle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsnd --respawn --transpile-only src/server.ts"
+  },
+  "prisma": {
+    "seed": "ts-node src/seed.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@mermaid-js/mermaid-cli": "^10.2.4",
+    "@types/node": "^20.4.2",
+    "prisma": "^5.0.0",
+    "prisma-erd-generator": "^1.8.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.0.0"
+  }
+}
